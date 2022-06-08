@@ -1,0 +1,155 @@
+/*  Синий цвет #2196F3 */
+/*  Цвет золовка #FFFFFF */
+/* Основной цвет текста #757575 */
+/*  Вторичный цвет текста #212121 */
+/*  Цвет адреса в Подвале rgba(255, 255, 255, 0.6) */
+/* Цвет фона команда #F5F4FA */
+/* фон героя и вутера #2F303A */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-heder: #FFF;
+    --background-main: #E5E5E5;
+    --background-footer: #2F303A;
+}
+body {
+    background-color: var(--background-main);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+a,
+button {
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus,
+.link.current {
+    color: var(--accent-color);
+}
+
+.link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/* .button {
+    color: ;
+} */
+
+/* title h */
+.section-title {
+    color: var(--title-text-color);
+
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+.title {
+    color: var(--title-text-color);
+
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+}
+
+.title-pec {
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.title-off{
+    display: none;
+}
+
+/* Header профиля */
+
+.page-header {
+    background-color: var(--background-heder);
+}
+.logo {
+    color: #212121;
+    text-decoration: none;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+.logo .logo-color {
+    color: var(--accent-color);
+}
+/* Hero блок  */
+
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFF;
+
+    
+    font-style: 400;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* pageteam */
+.page-team {
+    background-color: #F5F4FA;
+}
+/* Footer */
+
+.address-text {
+    color: #FFFFFF;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.page-footer {
+    background-color: var(--background-footer);
+}   
+
+.logo-footer {
+    color: #fff;
+}
+
+.butto.primary {
+    color: #fff;
+    background-color: var(--accent-color);
+}
+.butto.secondary {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
