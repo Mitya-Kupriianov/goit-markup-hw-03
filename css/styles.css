@@ -71,8 +71,8 @@ ul {
 }
 
 .work-item {
-    width: calc((100% - 60px) / 3);
-
+    /* width: calc((100% - 60px) / 3); */
+    width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
 
@@ -359,7 +359,7 @@ letter-spacing: 0.03em;
     padding: 6px 22px;
 }
 
-.work-img {
+/* .work-img {
     width: 100%;
     
-}
+} */
