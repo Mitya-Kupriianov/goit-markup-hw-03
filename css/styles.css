@@ -9,6 +9,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --background-hover-button-ptimary: #188CE8;
     --background-heder: #FFF;
     --background-main: #E5E5E5;
     --background-footer: #2F303A;
@@ -79,7 +80,7 @@ ul {
     margin-top: 0;
     margin-bottom: 50px;
 
-    font-style: 400;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
@@ -91,7 +92,7 @@ ul {
     margin-top: 30px;
     margin-bottom: 10px;
 
-    font-style: 400;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -101,7 +102,7 @@ ul {
 .title-pec {
     margin-top: 95px;
 
-    font-style: 400;
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -123,7 +124,7 @@ ul {
 .logo {
     display: inline-block;
 
-    color: #212121;
+    color: var(--title-text-color);
     text-decoration: none;
     
     font-family: 'Raleway';
@@ -147,7 +148,7 @@ ul {
 /* Hero блок  */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-footer);
 
     /* height: 600px; */
     margin-top: 0;
@@ -155,7 +156,7 @@ ul {
     text-align: center;
 }
 .hero-title {
-    color: #FFF;
+    color: var(--background-heder);
     margin-top: 0;
     margin-bottom: 30px;
     padding-top: 200px;
@@ -188,7 +189,7 @@ height: 75px; */
 }
 
 .address-text {
-    color: #FFFFFF;
+    color: var(--background-heder);
 }
 
 .address-link {
@@ -206,7 +207,7 @@ height: 75px; */
 }   
 
 .logo-footer {
-    color: #fff;
+    color: var(--background-heder);
 }
 
 .container-footer p {
@@ -218,10 +219,21 @@ height: 75px; */
     margin-bottom: 20px;
 }
 .butto.primary {
-    color: #fff;
+    color: var(--background-heder);
     background-color: var(--accent-color);
 }
-.butto.secondary {
+.primary:hover,
+.primary:focus {
+    background-color: var(--background-hover-button-ptimary);
+}
+
+.secondary {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+}
+
+.secondary-hover:hover,
+.secondary-hover:focus {
+    color: var(--background-heder);
+    background-color: var(--accent-color);
 }
