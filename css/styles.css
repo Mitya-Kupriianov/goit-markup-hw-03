@@ -21,7 +21,10 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -44,6 +47,13 @@ ul {
 .link.current {
     display: inline-block;
     color: var(--accent-color);
+}
+
+.page-header,
+.page-footer,
+main {
+    width: 1600px;
+    max-width: 100%;
 }
 
 .portfolio-page {
@@ -275,25 +285,30 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     /* text-align: center; */
-}
 
-.hero-text {
-    /* margin-left: 452px; */   
-    text-align: center;
-    /* width: 1230px; */
-    /* padding: 0 15px;     */
+    
     
 }
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
 .hero-title {
     /* display: block; */
     color: var(--background-heder);
     margin-top: 0;
     margin-bottom: 30px;
-    padding-top: 200px;
-    /* max-width: 696; */
-    width: 696px;
-    margin-left: 452px;
-    /* height: 120px; */
+    max-width: 696px;
+    text-align: center;
+    padding: 0 15px;
+    
+    
     
 
 
