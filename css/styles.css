@@ -85,7 +85,7 @@ ul {
 
 .work-cards-link {
     text-decoration: none;
-    border: 1px solid #EEEEEE;
+    /* border: 1px solid #EEEEEE; */
     /* height: 404px; */
 }
 
@@ -99,7 +99,10 @@ ul {
     flex-wrap: wrap;
 }
 
-
+.work-text {
+    border: 1px solid #EEEEEE;
+    border-top-style: none;
+}
 .work-item {
     /* width: calc((100% - 60px) / 3); */
     /* width: 370px; */
@@ -109,7 +112,7 @@ ul {
 
     background: var(--background-heder);
     /* border: 1px solid #EEEEEE; */
-    border: 1px solid #EEEEEE;
+    /* border: 1px solid #EEEEEE; */
 }
 
 .work-item:nth-child(3n) {
@@ -356,6 +359,12 @@ ul {
 
 .logo-footer {
     color: var(--background-heder);
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 
 .container-footer p {
