@@ -121,8 +121,7 @@ main {
     margin-bottom: 30px;
 
     background: var(--background-heder);
-    /* border: 1px solid #EEEEEE; */
-    /* border: 1px solid #EEEEEE; */
+    
 }
 
 .work-item:nth-child(3n) {
@@ -178,9 +177,7 @@ main {
     letter-spacing: 0.02em;
 }
 
-/* .button {
-    color: ;
-} */
+
 
 /* title h */
 .section-title {
@@ -300,7 +297,6 @@ main {
 }
 
 .hero-title {
-    /* display: block; */
     color: var(--background-heder);
     margin-top: 0;
     margin-bottom: 30px;
@@ -375,6 +371,14 @@ main {
 }
 /* Footer */
 
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
 .address-li {
     padding-top: 0;
     padding-bottom: 10px;
@@ -387,10 +391,6 @@ main {
 .address-link {
     color: rgba(255, 255, 255, 0.6);
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 
 .page-footer {
