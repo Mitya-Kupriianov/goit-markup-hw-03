@@ -65,8 +65,8 @@ button {
     height: 40px;
     padding: 6px 22px;
 }
-
-p {
+h1, h2, h3, h4, p {
+    margin-top: 0;
     margin-bottom: 0;
 }
 ul {
@@ -99,7 +99,6 @@ img {
     margin-right: auto;
     width: 1200px;
     padding: 0 15px;
-    padding-top: 94px;
 }
 
 .container-footer,
@@ -143,7 +142,8 @@ img {
     letter-spacing: 0.06em;
 
     margin-top: 0;
-    padding-top: 25px;
+    margin-bottom: 4px;
+    
 
 }
 
@@ -268,7 +268,11 @@ img {
     padding: 10px 32px;
 }
 
-/* -----------------------------------VISUALLY--------------------------------- */
+/* -----------------------------------PECULIARITIES--------------------------------- */
+
+.peculiarities {
+    padding-top: 94px;
+}
 
 .peculiarities-list {
     display: flex;
@@ -313,6 +317,11 @@ img {
 
 /* -----------------------------------WORK--------------------------------- */
 
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .work-img {
     display: flex;
     flex-wrap: wrap;
@@ -335,6 +344,7 @@ img {
 
 .page-team {
     background-color: #F5F4FA;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -374,13 +384,13 @@ img {
 /* -----------------------------------FOOTER--------------------------------- */
 
 .page-footer {
-
-    height: 251px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--background-footer);
 }
-.logo-weig {
-    margin-top: 60px;
+.logo-weig {    
     margin-bottom: 20px;
+    margin-right: 0;
 }
 
 .logo-footer {
@@ -405,48 +415,51 @@ img {
 .address-text {
     color: var(--background-heder);
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.address-li {
-    padding-top: 0;
-    padding-bottom: 10px;
+.address-lin {
+    margin-bottom: 9px;
+    color: rgba(255, 255, 255, 0.6);
 }
-
+/* .address-link:last-child {
+    margin-bottom: 0;
+} */
 .address-link {
     color: rgba(255, 255, 255, 0.6);
-
+    margin-bottom: 0;
 }
 /* -----------------------------------PORTFOLIO--------------------------------- */
 /* -----------------------------------PORTFOLIO--------------------------------- */
 
-/* .portfolio-page {
-    margin-left: auto;
+.portfolio-page {
+    /* margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding: 0 15px;
+    padding: 0 15px; */
     padding-top: 94px;
     padding-bottom: 94px;
-} */
+}
 
 /* -----------------------------------P2-BTN--------------------------------- */
 
 .link-button {
     display: flex;
-    margin-bottom: 35px;
-    margin-left: 280px;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
 .button-item {
-    margin-right: 10px;
+    margin-right: 8px;
 }
-
+.button-item:last-child {
+    margin-right: 0;
+}
 /* -----------------------------------P2-WORK-CARDS--------------------------------- */
 
 .work-cards {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 
 .work-item {
@@ -475,8 +488,8 @@ img {
 
 .work-text {
     border: 1px solid #EEEEEE;
-    border-top-style: none;
-    padding-left: 24px;
+    border-top: none;
+    padding: 24px 20px;
 }
 
 .work-cards-text {
