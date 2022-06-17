@@ -103,7 +103,7 @@ img {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1230px;
+    width: 1200px;
     padding: 0 15px;
 }
 
@@ -296,8 +296,10 @@ img {
 } */
 
 .peculiaritiea-item {
+width: calc((100% - ((4 - 1) * 30px )) / 4);
+    /* flex-basis: calc((100% - (4 - 1) * 30px)); */
     /* width: 270px; */
-    width: calc(100% / 4 - 30px);
+    /* width: calc(100% / 4 - 30px); */
     /* margin-right: 30px; */
     /* margin-top: 30px; */
 }
@@ -337,7 +339,8 @@ img {
 }
 
 .item-img {
-    width: calc(100% / 3 - 30px);
+    width: calc((100% - ((3 - 1) * 30px)) / 3);
+    /* width: calc(100% / 3 - 30px); */
     /* margin-right: 30px; */
     /* margin-top: 30px; */
 }
@@ -365,7 +368,8 @@ img {
 
 .team-card {
     background: #FFFFFF;
-    width: calc(100% / 4 - 30px);
+    /* width: calc(100% / 4 - 30px); */
+    width: calc((100% - ((4 - 1) * 30px)) / 4);
     /* width: calc((100%-90px) / 4); */
     /* margin-right: 30px;
     margin-top: 30px; */
@@ -486,7 +490,9 @@ img {
 .work-item {
     background: var(--background-heder);
 
-    width: calc(100% / 3 - 30px);
+    width: calc((100% - ((3 - 1) * 30px)) / 3);
+
+    /* width: calc(100% / 3 - 30px); */
 
     /* width: calc((100% - 60px) / 3); */
     /* width: 370px; */
